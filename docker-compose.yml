@@ -1,0 +1,7 @@
+services:
+  my-site:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: my-site
+    restart: always
